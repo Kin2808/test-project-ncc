@@ -1,0 +1,59 @@
+.content {
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex: 1;
+}
+
+.content-logo {
+  width: 310px;
+  height: 122px;
+  margin: 0 auto;
+}
+
+.content-info {
+  margin: 30px 0 40px;
+  padding: 38px 269px;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.content-info p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 18px;
+}
+
+.content-info {
+  line-height: 18.75px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 50px;
+}
+
+.content-grid h4 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 18px;
+}
+
+.content-grid-img {
+  float: left;
+  width: 128px;
+  margin-right: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .content-info {
+    padding: 20px;
+  }
+
+  .content-grid {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 50px;
+  }
+}

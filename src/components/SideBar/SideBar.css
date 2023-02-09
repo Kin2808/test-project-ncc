@@ -1,0 +1,25 @@
+.hide {
+  display: block;
+}
+
+.sideBar {
+  width: 150px;
+  min-height: 100vh;
+  height: 100%;
+  background: #191718;
+}
+
+.sideBar p {
+  color: white;
+  font-weight: 700;
+  padding-top: 14px;
+  padding-left: 16px;
+  padding-bottom: 11px;
+  line-height: 19px;
+  border-bottom: 1px solid #5c5c5c;
+  cursor: pointer;
+}
+
+.sideBar p:hover {
+  background-color: #5c5c5c;
+}
